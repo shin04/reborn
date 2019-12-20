@@ -1,0 +1,13 @@
+<h1>Please Upload</h1>
+
+<form enctype="multipart/form-data" action="{% url 'converter:upload' %}" method="post">
+{% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="Upload">
+</form>
+
+<p>変換前</p>
+<img src="{{ file_name_2 }}" alt="">
+
+<p>変換後</p>
+<img src="{{ file_name }}" alt="">

@@ -1,0 +1,13 @@
+# vscodeの設定ファイルをgit管理対象から外す
+.vscode/
+ 
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+daishin2kanna
+.DS_Store
