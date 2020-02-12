@@ -1,4 +1,4 @@
-Django==2.2
+Django==2.2.10
 tensorflow==2.0.0
 opencv-python==3.4.2.17
 matplotlib==2.2.3
